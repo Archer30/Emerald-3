@@ -11,12 +11,12 @@ int __stdcall NewHasArtifact(HiHook* h, HERO* hero, int art)
 {
 	int ret = CALL_2(int, __thiscall, h->GetDefaultFunc(), hero, art);
 
-	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000) //морочим только SoD;
+	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000) //We only fool SoD;
 	{
 		for (int i=0; i!=19; i++)
 		{
-			if (art==ARTIFACT_SPELLBOOK && hero->IArt[i][0]!=-1 &&  //если герои лезут за книжкой, то 
-				GetArtifactRecord(hero->IArt[i][0])->rank & 0x40)	//мы проверяем наличие спеллбуков во всех слотоах и подменяем ответ 
+			if (art==ARTIFACT_SPELLBOOK && hero->IArt[i][0]!=-1 &&  //if the heroes reach for a book, then 
+				GetArtifactRecord(hero->IArt[i][0])->rank & 0x40)	//we check for the presence of spellbooks in all slots and replace the answer 
 			{
 				//sprintf(buf,"NewHasArtifact::Spellbook found at slot %i", i);
 				//WriteConsoleA(GetStdHandle(STD_OUTPUT_HANDLE),(const void*)buf,64,0,0);
@@ -46,7 +46,7 @@ int __stdcall NewHasArtifactInBP(HiHook* h, HERO* hero, int art)
 {
 	int ret = CALL_2(int, __thiscall, h->GetDefaultFunc(), hero, art);
 
-	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000)//морочим только SoD;
+	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000)//We're only fooling SoD;
 	{
 		for (int i=0; i!=19; i++)
 		{
@@ -69,8 +69,8 @@ int __stdcall NewHasArtifactInBP(HiHook* h, HERO* hero, int art)
 			}
 		}
 
-		//собственно, спеллбуком полезность этого хука и ограничивается. 
-		//Ну, вроде, еще машины где-то засветились.
+		//In fact, the usefulness of this hook is limited by the spellbook. 
+		//Well, it seems like the cars also showed up somewhere.
 	}
 	return ret;
 }

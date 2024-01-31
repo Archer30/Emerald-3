@@ -1,4 +1,4 @@
-// dllmain.cpp: определяет точку входа для приложения DLL.
+// dllmain.cpp: Defines the entry point for the DLL application.
 #include "emerald.h"
 
 extern void __stdcall  Emerald(PEvent e);

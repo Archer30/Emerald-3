@@ -1,4 +1,4 @@
-// dllmain.cpp: определяет точку входа для приложения DLL.
+// dllmain.cpp: defines the entry point for the application DLL.
 #include "emerald.h"
 
 void EnableCombos(void) {

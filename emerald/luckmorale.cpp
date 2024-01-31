@@ -11,7 +11,7 @@ int __stdcall LuckTextHook(LoHook* h, HookContext* c)
 {
 	HERO *hero = (HERO*)(c->ebx);
 
-	/*char *s = "\x0AВрожденное везение +1";
+	/*char *s = "\x0AInnate luck +1";
 	CALL_3(void, __thiscall, 0x41B2A0, (int*)(c->ebp-0x28), s, strlen(s));
 	*(int*)(c->ebp-0x10) += 1;*/
 
