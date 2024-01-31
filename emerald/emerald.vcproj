@@ -166,7 +166,7 @@
 	</References>
 	<Files>
 		<Filter
-			Name="Ôàéëû èñõîäíîãî êîäà"
+			Name="Ð¤Ð°Ð¹Ð»Ñ‹ Ð¸ÑÑ…Ð¾Ð´Ð½Ð¾Ð³Ð¾ ÐºÐ¾Ð´Ð°"
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
@@ -230,7 +230,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="Çàãîëîâî÷íûå ôàéëû"
+			Name="Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ñ‡Ð½Ñ‹Ðµ Ñ„Ð°Ð¹Ð»Ñ‹"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
@@ -252,7 +252,7 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="Ôàéëû ðåñóðñîâ"
+			Name="Ð¤Ð°Ð¹Ð»Ñ‹ Ñ€ÐµÑÑƒÑ€ÑÐ¾Ð²"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>

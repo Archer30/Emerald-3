@@ -1,5 +1,5 @@
 #pragma once
-//Данные, общие для всего модуля.
+//Ж’Р°РЅРЅС‹Рµ, РѕР±С‰РёРµ РґР»в‚¬ РІСЃРµРіРѕ РјРѕРґСѓР»в‚¬.
 
 #include <windows.h>
 #include <stdio.h>
@@ -22,7 +22,7 @@ inline bool FileExists(const char* chPath) {
 //#define char_table_size 512
 //#define int_tuple_size 256
 
-//#define SPELLS_AMOUNT	128		//зачем жалеть память?
+//#define SPELLS_AMOUNT	128		//Р·Р°С‡РµРј Р¶Р°Р»РµС‚СЊ РїР°Рјв‚¬С‚СЊ?
 
 #define PINSTANCE_MAIN "emerald3_3"
 

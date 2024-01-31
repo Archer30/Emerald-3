@@ -1,195 +1,174 @@
 ﻿  heroes.cpp
-D:\Documents\GitHub\Emerald3\__include\heroes.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\heroes.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   ArtifactCombos.cpp
-D:\Documents\GitHub\Emerald3\emerald\ArtifactCombos.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   CleanBegin.cpp
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\CleanBegin.cpp(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\CleanBegin.cpp(15,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\CleanBegin.cpp(14,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\CleanBegin.cpp(15,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   config.cpp
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(105,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(138,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(144,16): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(155,9): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(347,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\config.cpp(351,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(105,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(138,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(144,16): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(155,9): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(347,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\config.cpp(351,18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   DebugWindow.cpp
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\DebugWindow.cpp(13,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\DebugWindow.cpp(16,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\DebugWindow.cpp(19,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\DebugWindow.cpp(13,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\DebugWindow.cpp(16,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\DebugWindow.cpp(19,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   duplicate.cpp
-D:\Documents\GitHub\Emerald3\emerald\duplicate.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   emerald.cpp
-D:\Documents\GitHub\Emerald3\emerald\emerald.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.cpp(96,8): warning C4101: 'tmp': unreferenced local variable
-D:\Documents\GitHub\Emerald3\emerald\emerald.cpp(127,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\emerald.cpp(131,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\emerald.cpp(134,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(96,8): warning C4101: 'tmp': unreferenced local variable
+D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(127,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(131,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(134,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   events.cpp
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\events.cpp(255,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\events.cpp(255,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   External.cpp
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   luckmorale.cpp
-D:\Documents\GitHub\Emerald3\emerald\luckmorale.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\luckmorale.cpp(39,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald3\emerald\luckmorale.cpp(105,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\luckmorale.cpp(39,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Documents\GitHub\Emerald-3\emerald\luckmorale.cpp(105,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   properties.cpp
-D:\Documents\GitHub\Emerald3\emerald\properties.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   random.cpp
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   resistance.cpp
-D:\Documents\GitHub\Emerald3\emerald\resistance.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
   SpellSet.cpp
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(6,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(30,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(54,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(78,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(102,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(126,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(138,1): warning C4102: 'loc_4D9768': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(150,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(153,4): warning C4102: 'loc_4D9751': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(186,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(189,4): warning C4102: 'loc_4D9751': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(262,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(265,4): warning C4102: 'loc_4D9751': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(298,2): warning C4102: 'loc_4D9748': unreferenced label
-D:\Documents\GitHub\Emerald3\emerald\SpellSet.cpp(301,4): warning C4102: 'loc_4D9751': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(6,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(30,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(54,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(78,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(102,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(126,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(138,1): warning C4102: 'loc_4D9768': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(150,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(153,4): warning C4102: 'loc_4D9751': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(186,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(189,4): warning C4102: 'loc_4D9751': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(262,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(265,4): warning C4102: 'loc_4D9751': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(298,2): warning C4102: 'loc_4D9748': unreferenced label
+D:\Documents\GitHub\Emerald-3\emerald\SpellSet.cpp(301,4): warning C4102: 'loc_4D9751': unreferenced label
   Generating Code...
   dllmain.cpp
-D:\Documents\GitHub\Emerald3\emerald\dllmain.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-D:\Documents\GitHub\Emerald3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-D:\Documents\GitHub\Emerald3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-D:\Documents\GitHub\Emerald3\emerald\MyTypes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
+D:\Documents\GitHub\Emerald-3\__include\heroes.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
+D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(538,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
      Creating library D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.lib and object D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.exp
   emerald.vcxproj -> D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.era

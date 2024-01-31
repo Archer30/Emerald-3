@@ -32,7 +32,7 @@ int IsArtifactAllowFly(int id, int customdata)
 	return false;
 }
 
-//результат - шанс отражения заклятия. 0 - нифига, 1 - иммунитет.
+//СЂРµР·СѓР»СЊС‚Р°С‚ - С€Р°РЅСЃ РѕС‚СЂР°Р¶РµРЅРёСЏ Р·Р°РєР»СЏС‚РёСЏ. 0 - РЅРёС„РёРіР°, 1 - РёРјРјСѓРЅРёС‚РµС‚.
 double AbsorbDamage(int id, int customdata, int spell)
 {
 	//if (spell==SPELL_ARMAGEDDON)

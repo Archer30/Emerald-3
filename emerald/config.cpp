@@ -35,7 +35,7 @@ bool ParseStr(char* buf, char* name, /*char* &target */ char res[char_table_size
 	if (c != NULL)
 	{
 		char* cend = strstr(c + l, "\"");
-		if (cend != NULL) //мало ли, какие идиоты встречаются
+		if (cend != NULL) //РјР°Р»Рѕ Р»Рё, РєР°РєРёРµ РёРґРёРѕС‚С‹ РІСЃС‚СЂРµС‡Р°СЋС‚СЃСЏ
 		{
 			//*res = (char*)malloc(cend-c+1);
 
@@ -163,9 +163,9 @@ int ParseTuple(char* buf, char* name, /* int** tuple */ int tuple [int_tuple_siz
 int enchanted_artifacts[] =
 { 0x01,0x80,0x7B,0x7C,
 	0x56,0x57,0x58,0x59,
-	0x87 };	//список артефактов, дающих заклинания. 
-			//Для добавления - дописываем свой арт в конец списка 
-			//и задаем ему заклинание через artspelltable
+	0x87 };	//СЃРїРёСЃРѕРє Р°СЂС‚РµС„Р°РєС‚РѕРІ, РґР°СЋС‰РёС… Р·Р°РєР»РёРЅР°РЅРёСЏ. 
+			//Р”Р»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ - РґРѕРїРёСЃС‹РІР°РµРј СЃРІРѕР№ Р°СЂС‚ РІ РєРѕРЅРµС† СЃРїРёСЃРєР° 
+			//Рё Р·Р°РґР°РµРј РµРјСѓ Р·Р°РєР»РёРЅР°РЅРёРµ С‡РµСЂРµР· artspelltable
 extern "C" __declspec(dllexport) void ConfigureArt(int artifact, char* config) {
 
 	char* buf = config; int target = artifact;
@@ -448,7 +448,7 @@ void __stdcall LoadConfigs(PEvent e)
    {
       if (!(ffd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY))
       {
-		 int artifact = atoi(ffd.cFileName);  //а не запилить ли своё atoi, с шахматами и прочая?
+		 int artifact = atoi(ffd.cFileName);  //Р° РЅРµ Р·Р°РїРёР»РёС‚СЊ Р»Рё СЃРІРѕС‘ atoi, СЃ С€Р°С…РјР°С‚Р°РјРё Рё РїСЂРѕС‡Р°СЏ?
 		 if (artifact!=0)
 		 {
 			LoadArtifactConfig(artifact);

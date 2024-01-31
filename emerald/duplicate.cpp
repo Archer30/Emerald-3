@@ -11,12 +11,12 @@ int __stdcall NewHasArtifact(HiHook* h, HERO* hero, int art)
 {
 	int ret = CALL_2(int, __thiscall, h->GetDefaultFunc(), hero, art);
 
-	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000) //морочим только SoD;
+	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000) //РјРѕСЂРѕС‡РёРј С‚РѕР»СЊРєРѕ SoD;
 	{
 		for (int i=0; i!=19; i++)
 		{
-			if (art==ARTIFACT_SPELLBOOK && hero->IArt[i][0]!=-1 &&  //если герои лезут за книжкой, то 
-				GetArtifactRecord(hero->IArt[i][0])->rank & 0x40)	//мы проверяем наличие спеллбуков во всех слотоах и подменяем ответ 
+			if (art==ARTIFACT_SPELLBOOK && hero->IArt[i][0]!=-1 &&  //РµСЃР»Рё РіРµСЂРѕРё Р»РµР·СѓС‚ Р·Р° РєРЅРёР¶РєРѕР№, С‚Рѕ 
+				GetArtifactRecord(hero->IArt[i][0])->rank & 0x40)	//РјС‹ РїСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ СЃРїРµР»Р»Р±СѓРєРѕРІ РІРѕ РІСЃРµС… СЃР»РѕС‚РѕР°С… Рё РїРѕРґРјРµРЅСЏРµРј РѕС‚РІРµС‚ 
 			{
 				//sprintf(buf,"NewHasArtifact::Spellbook found at slot %i", i);
 				//WriteConsoleA(GetStdHandle(STD_OUTPUT_HANDLE),(const void*)buf,64,0,0);
@@ -46,7 +46,7 @@ int __stdcall NewHasArtifactInBP(HiHook* h, HERO* hero, int art)
 {
 	int ret = CALL_2(int, __thiscall, h->GetDefaultFunc(), hero, art);
 
-	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000)//морочим только SoD;
+	if (h->GetReturnAddress() < 0x700000 && h->GetReturnAddress() > 0x400000)//РјРѕСЂРѕС‡РёРј С‚РѕР»СЊРєРѕ SoD;
 	{
 		for (int i=0; i!=19; i++)
 		{
@@ -69,8 +69,8 @@ int __stdcall NewHasArtifactInBP(HiHook* h, HERO* hero, int art)
 			}
 		}
 
-		//собственно, спеллбуком полезность этого хука и ограничивается. 
-		//Ну, вроде, еще машины где-то засветились.
+		//СЃРѕР±СЃС‚РІРµРЅРЅРѕ, СЃРїРµР»Р»Р±СѓРєРѕРј РїРѕР»РµР·РЅРѕСЃС‚СЊ СЌС‚РѕРіРѕ С…СѓРєР° Рё РѕРіСЂР°РЅРёС‡РёРІР°РµС‚СЃСЏ. 
+		//РќСѓ, РІСЂРѕРґРµ, РµС‰Рµ РјР°С€РёРЅС‹ РіРґРµ-С‚Рѕ Р·Р°СЃРІРµС‚РёР»РёСЃСЊ.
 	}
 	return ret;
 }

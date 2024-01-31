@@ -1,4 +1,4 @@
-// применение основного кода: расширение таблиц
+// РїСЂРёРјРµРЅРµРЅРёРµ РѕСЃРЅРѕРІРЅРѕРіРѕ РєРѕРґР°: СЂР°СЃС€РёСЂРµРЅРёРµ С‚Р°Р±Р»РёС†
 
 #include "emerald.h"
 #include "SpellSet.h"
@@ -16,24 +16,24 @@ ART_BONUS newbtable[NEW_ARTS_AMOUNT];
 //char* arteventtable[NEW_ARTS_AMOUNT+1]; 
 char arteventtable[NEW_ARTS_AMOUNT + 1] [char_table_size];
 
-char  artspelltable[NEW_ARTS_AMOUNT]; //новая таблица заклятий, даваемых артефактами
-int artspellswitch[256];      //новый свитч для этой таблицы
+char  artspelltable[NEW_ARTS_AMOUNT]; //РЅРѕРІР°СЏ С‚Р°Р±Р»РёС†Р° Р·Р°РєР»СЏС‚РёР№, РґР°РІР°РµРјС‹С… Р°СЂС‚РµС„Р°РєС‚Р°РјРё
+int artspellswitch[256];      //РЅРѕРІС‹Р№ СЃРІРёС‚С‡ РґР»СЏ СЌС‚РѕР№ С‚Р°Р±Р»РёС†С‹
 unsigned char _magic[22] = {0x6A,0x01,0x6A,0x09,
 							0x8D,0x4D,0xE4,0xB8,
 							0xA0,0x67,0x4E,0x00,
 							0xFF,0xD0,0xB8,0x9D,
 							0x97,0x4D,0x00,0xFF,
-							0xE0,0x90}; //машкод кейса, ответственного за добавление заклинания артефакту.
- char new_cases[22*128];  //буфер для новых кейсов, дающих единичные заклинания
+							0xE0,0x90}; //РјР°С€РєРѕРґ РєРµР№СЃР°, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕРіРѕ Р·Р° РґРѕР±Р°РІР»РµРЅРёРµ Р·Р°РєР»РёРЅР°РЅРёСЏ Р°СЂС‚РµС„Р°РєС‚Сѓ.
+ char new_cases[22*128];  //Р±СѓС„РµСЂ РґР»СЏ РЅРѕРІС‹С… РєРµР№СЃРѕРІ, РґР°СЋС‰РёС… РµРґРёРЅРёС‡РЅС‹Рµ Р·Р°РєР»РёРЅР°РЅРёСЏ
 
  
  int enchanted_artifacts_count = 9;
  int enchanted_artifacts[NEW_ARTS_AMOUNT] = 
  {0x01,0x80,0x7B,0x7C,
   0x56,0x57,0x58,0x59,
-  0x87};	//список артефактов, дающих заклинания. 
-			//Для добавления - дописываем свой арт в конец списка 
-			//и задаем ему заклинание через artspelltable
+  0x87};	//СЃРїРёСЃРѕРє Р°СЂС‚РµС„Р°РєС‚РѕРІ, РґР°СЋС‰РёС… Р·Р°РєР»РёРЅР°РЅРёСЏ. 
+			//Р”Р»СЏ РґРѕР±Р°РІР»РµРЅРёСЏ - РґРѕРїРёСЃС‹РІР°РµРј СЃРІРѕР№ Р°СЂС‚ РІ РєРѕРЅРµС† СЃРїРёСЃРєР° 
+			//Рё Р·Р°РґР°РµРј РµРјСѓ Р·Р°РєР»РёРЅР°РЅРёРµ С‡РµСЂРµР· artspelltable
 */
  char *dummy_hint = "Artifact sponsored by emerald.dll. Version from: "\
 					__DATE__ \
@@ -84,9 +84,9 @@ extern void __stdcall OnNewDay(PEvent e);
 int __stdcall ArtTypesHook(LoHook* h, HookContext* c)
 {
 	if (c->eax == 'W') 
-		{*(int*)(0x0C + c->ebx) = 0x20; return NO_EXEC_DEFAULT;} //боевые машины
+		{*(int*)(0x0C + c->ebx) = 0x20; return NO_EXEC_DEFAULT;} //Р±РѕРµРІС‹Рµ РјР°С€РёРЅС‹
 	if (c->eax == 'B') 
-		{*(int*)(0x0C + c->ebx) = 0x40; return NO_EXEC_DEFAULT;} //книги
+		{*(int*)(0x0C + c->ebx) = 0x40; return NO_EXEC_DEFAULT;} //РєРЅРёРіРё
 
 	return EXEC_DEFAULT;
 }
@@ -345,7 +345,7 @@ void __stdcall EmeraldRedo(PEvent e) {
 	emerald->WriteDword(0x44D1AA, max_art);
 }
 
-void __stdcall Emerald(PEvent e)	//основная функция
+void __stdcall Emerald(PEvent e)	//РѕСЃРЅРѕРІРЅР°СЏ С„СѓРЅРєС†РёСЏ
 {
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 01", "Emerald::Emerald BUMP", 0);
@@ -385,7 +385,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 			memcpy(no_save.newtable,(void*)*(int*)0x660B68,sizeof(ART_RECORD)*OLD_ARTS_AMOUNT);
 		*/
 
-		emerald->WriteDword(0x660B68,(int)EmeraldArtNewTable); //перенос основной таблицы
+		emerald->WriteDword(0x660B68,(int)EmeraldArtNewTable); //РїРµСЂРµРЅРѕСЃ РѕСЃРЅРѕРІРЅРѕР№ С‚Р°Р±Р»РёС†С‹
 
 
 		memcpy(EmeraldArtNewBTable, (void*)*(int*)0x4E2D26, sizeof(ART_BONUS) * OLD_ARTS_AMOUNT);
@@ -396,7 +396,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 		//emerald->WriteDword(0x4DC358,0xA0); //MoP said
 		emerald->WriteDword(0x4DC358, NEW_ARTS_AMOUNT); //majaczek tries
 
-		//текстовики
+		//С‚РµРєСЃС‚РѕРІРёРєРё
 		emerald->WriteDword(0x44CB32,(int)EmeraldArtNewTable);
 		emerald->WriteDword(0x44CD1E,(int)EmeraldArtNewTable);
 		emerald->WriteDword(0x44CD6C,(int)EmeraldArtNewTable);
@@ -417,7 +417,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 
 		emerald->WriteDword(0x717117,(int)EmeraldArtNewTable+0x14);
 		
-		//ерм
+		//РµСЂРј
 		emerald->WriteDword(0x714ECA,NEW_ARTS_AMOUNT);
 		emerald->WriteDword(0x714F46,NEW_ARTS_AMOUNT);
 		emerald->WriteDword(0x716F7F,NEW_ARTS_AMOUNT);
@@ -428,7 +428,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 		emerald->WriteDword(0x75120D,NEW_ARTS_AMOUNT); //WoG_Saver
 		emerald->WriteDword(0x751c5d,NEW_ARTS_AMOUNT); //WoG_Loader
 
-		//бонусы
+		//Р±РѕРЅСѓСЃС‹
 		//if(first_time) memcpy(no_save.newbtable,(void*)0x7B8358,4*OLD_ARTS_AMOUNT);
 		
 		emerald->WriteDword(0x4E2D26, (int)EmeraldArtNewBTable);
@@ -442,7 +442,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 	    emerald->WriteDword(0x4E2F41, (int)EmeraldArtNewBTable + 4 * 160);
 
 		//if (first_time)
-			//no_save.newbtable[ARTIFACT_CRIMSON_SHLD].def = +2; //восстанавливаем "щит возмездия", будь он неладен
+			//no_save.newbtable[ARTIFACT_CRIMSON_SHLD].def = +2; //РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°РµРј "С‰РёС‚ РІРѕР·РјРµР·РґРёСЏ", Р±СѓРґСЊ РѕРЅ РЅРµР»Р°РґРµРЅ
 	
 		//emerald->WriteDataPatch(0x4e2eb3,"4D F4 E8 E6 17");
 		//emerald->WriteDataPatch(0x4E2D43,"8B 4D F4 E8 55");
@@ -464,7 +464,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 			//MessageBoxA(0, "Emerald::Emerald BUMP 03", "Emerald::Emerald BUMP", 0);
 		
 		
-		//тексты на карте
+		//С‚РµРєСЃС‚С‹ РЅР° РєР°СЂС‚Рµ
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 04", "Emerald::Emerald BUMP", 0);
 
@@ -480,7 +480,7 @@ void __stdcall Emerald(PEvent e)	//основная функция
 	    emerald->WriteDword(0x49DD90, NEW_ARTS_AMOUNT *4 +0); //artevent.txt
 
 
-		//таблица заклинаний, даваемых артефактами
+		//С‚Р°Р±Р»РёС†Р° Р·Р°РєР»РёРЅР°РЅРёР№, РґР°РІР°РµРјС‹С… Р°СЂС‚РµС„Р°РєС‚Р°РјРё
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 05", "Emerald::Emerald BUMP", 0);
 
@@ -526,32 +526,32 @@ void __stdcall Emerald(PEvent e)	//основная функция
 
 
 		if (first_time ) {
-			//новые типы артефактов
+			//РЅРѕРІС‹Рµ С‚РёРїС‹ Р°СЂС‚РµС„Р°РєС‚РѕРІ
 			emerald->WriteLoHook(0x44CC86, (void*)ArtTypesHook);
 
 
-			//сплайсим для возможности ограниченного копирования функций артефактов
+			//СЃРїР»Р°Р№СЃРёРј РґР»СЏ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РѕРіСЂР°РЅРёС‡РµРЅРЅРѕРіРѕ РєРѕРїРёСЂРѕРІР°РЅРёСЏ С„СѓРЅРєС†РёР№ Р°СЂС‚РµС„Р°РєС‚РѕРІ
 			emerald->WriteHiHook(0x4D9460, SPLICE_, EXTENDED_, THISCALL_, (void*)NewHasArtifact);
 			emerald->WriteHiHook(0x4D9420, SPLICE_, EXTENDED_, THISCALL_, (void*)NewHasArtifactInBP);
 
-			//удача
+			//СѓРґР°С‡Р°
 			emerald->WriteLoHook(0x4DCDA6, (void*)LuckTextHook);
 			emerald->WriteLoHook(0x4E3A46, (void*)LuckValueHook);
 
-			//мораль
+			//РјРѕСЂР°Р»СЊ
 			emerald->WriteLoHook(0x4DC606, (void*)MoraleTextHook);
 			emerald->WriteLoHook(0x4E3C9E, (void*)MoraleValueHook);
 
-			//резисты
+			//СЂРµР·РёСЃС‚С‹
 			emerald->WriteHiHook(0x44A1A0, SPLICE_, EXTENDED_, FASTCALL_, (void*)ResistanceHook);
 
-			//начало боя
+			//РЅР°С‡Р°Р»Рѕ Р±РѕСЏ
 			emerald->WriteLoHook(0x464FBA, (void*)BattleStartHook);
 
 			emerald->WriteHiHook(0x4E6390, SPLICE_, EXTENDED_, THISCALL_, (void*)OnCreatureParamInit);
 
 		}
-	//костыли для бога костылей!
+	//РєРѕСЃС‚С‹Р»Рё РґР»СЏ Р±РѕРіР° РєРѕСЃС‚С‹Р»РµР№!
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 08", "Emerald::Emerald BUMP", 0);
 
@@ -568,13 +568,13 @@ void __stdcall Emerald(PEvent e)	//основная функция
 
 			//emerald->WriteHiHook(0x5A7BF0, SPLICE_, EXTENDED_, FASTCALL_, (void*)MagicDamageHook);
 
-			//загрузка из конфигов
+			//Р·Р°РіСЂСѓР·РєР° РёР· РєРѕРЅС„РёРіРѕРІ
 		}
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 09", "Emerald::Emerald BUMP", 0);
 
 	
-	//костыли для бога костылей!
+	//РєРѕСЃС‚С‹Р»Рё РґР»СЏ Р±РѕРіР° РєРѕСЃС‚С‹Р»РµР№!
 
 		
 		int *p_Z_name_0x00A4A588_new = &no_save.ArtNames[0].DescVar;// save.ERM_Z_name;

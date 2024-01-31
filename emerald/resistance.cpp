@@ -5,7 +5,7 @@ extern double AbsorbDamage(int id, int customdata, int spell);
 
 double __stdcall ResistanceHook(HiHook* h, int spell, int creature, HERO* caster, HERO* victim)
 {
-	//òèïè÷íàÿ ïðîâåðêà âûãëÿäèò êàê 
+	//Ñ‚Ð¸Ð¿Ð¸Ñ‡Ð½Ð°Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð²Ñ‹Ð³Ð»ÑÐ´Ð¸Ñ‚ ÐºÐ°Ðº 
 	// if (spell == .. && victim && HasArtifact(victim, ..) return 0.0; else return 1.0;
 
 	double o = CALL_4(double, __fastcall, h->GetDefaultFunc(), spell, creature, caster, victim);
