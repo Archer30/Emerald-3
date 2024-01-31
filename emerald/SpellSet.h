@@ -1,0 +1,10 @@
+#pragma once
+void  SpellSet_LV1(void);
+void  SpellSet_LV2(void);
+void  SpellSet_LV3(void);
+void  SpellSet_LV4(void);
+void  SpellSet_ALL(void);
+void  SpellSet_EYE(void);
+void  SpellSet_ADV(void);
+void  SpellSet_TP(void);
+void  SpellSet_4EL(void);
