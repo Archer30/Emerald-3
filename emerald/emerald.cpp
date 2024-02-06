@@ -385,7 +385,7 @@ void __stdcall Emerald(PEvent e)	//main function
 			memcpy(no_save.newtable,(void*)*(int*)0x660B68,sizeof(ART_RECORD)*OLD_ARTS_AMOUNT);
 		*/
 
-		emerald->WriteDword(0x660B68,(int)EmeraldArtNewTable); //перенос основной таблицы
+		emerald->WriteDword(0x660B68,(int)EmeraldArtNewTable); //transfer of main table
 
 
 		memcpy(EmeraldArtNewBTable, (void*)*(int*)0x4E2D26, sizeof(ART_BONUS) * OLD_ARTS_AMOUNT);
@@ -428,7 +428,7 @@ void __stdcall Emerald(PEvent e)	//main function
 		emerald->WriteDword(0x75120D,NEW_ARTS_AMOUNT); //WoG_Saver
 		emerald->WriteDword(0x751c5d,NEW_ARTS_AMOUNT); //WoG_Loader
 
-		//бонусы
+		//bonuses
 		//if(first_time) memcpy(no_save.newbtable,(void*)0x7B8358,4*OLD_ARTS_AMOUNT);
 		
 		emerald->WriteDword(0x4E2D26, (int)EmeraldArtNewBTable);
@@ -464,7 +464,7 @@ void __stdcall Emerald(PEvent e)	//main function
 			//MessageBoxA(0, "Emerald::Emerald BUMP 03", "Emerald::Emerald BUMP", 0);
 		
 		
-		//тексты на карте
+		//texts on the map
 
 		//MessageBoxA(0, "Emerald::Emerald BUMP 04", "Emerald::Emerald BUMP", 0);
 
