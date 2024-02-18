@@ -541,16 +541,16 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 				0xFF,0xD0,0xB8,0x9D,
 				0x97,0x4D,0x00,0xFF,
 				0xE0,0x90 
-			}; //машкод кейса, ответственного за добавление заклинания артефакту.
+			}; //The machine code of the case responsible for adding the spell to the artifact.
 			memcpy((void*) no_save._magic, _magic, 22);
 
 			no_save.enchanted_artifacts_count = 9;
 			int enchanted_artifacts[] =
 			{ 0x01,0x80,0x7B,0x7C,
 				0x56,0x57,0x58,0x59,
-				0x87 };	//список артефактов, дающих заклинания. 
-						//Для добавления - дописываем свой арт в конец списка 
-						//и задаем ему заклинание через artspelltable
+				0x87 };	//list of artifacts that give spells.
+						//To add - add your art to the end of the list
+						//and give him a spell via artspelltable
 			memcpy(no_save.enchanted_artifacts, enchanted_artifacts, 4*9);
 
 			memset(no_save.autosummon,-1, 4*9* STORED_ARTS_AMOUNT);
@@ -604,24 +604,28 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 		
 		////Locking: why it can't be  disabled ?
 		//// 2020-04-02
+		/* Disabled by Archer 14 Feb 2024 - kk crap
 		RegisterHandler(Lock, "OnBeforeSaveGame");
 		RegisterHandler(Unlock, "OnAfterSaveGame");
 		RegisterHandler(Unlock, "OnAfterLoadGame");
 		RegisterHandler(Unlock, "OnAfterErmInstructions");
+		*/
 
 		//RegisterHandler(Unlock, "OnAfterErmInstructions"); // disabled 2019-05-21
 		
 		////2020-04-02
 		//RegisterHandler(NewGame, "OnAfterErmInstructions"); 
-		RegisterHandler(Z_OnAfterErmInstructions, "OnAfterErmInstructions");
+		// RegisterHandler(Z_OnAfterErmInstructions, "OnAfterErmInstructions"); Disabled by Archer 17 Feb
 
-		RegisterHandler(OnNewDay, "OnEveryDay");
+		// RegisterHandler(OnNewDay, "OnEveryDay"); Disabled by Archer 14 Feb 2024
 
-		RegisterHandler(OnBattleStart, "OnBeforeBattleUniversal");
-		RegisterHandler(OnBattleEnd, "OnAfterBattleUniversal");
+		// RegisterHandler(OnBattleStart, "OnBeforeBattleUniversal"); Disabled by Archer 14 Feb 2024
+		// RegisterHandler(OnBattleEnd, "OnAfterBattleUniversal"); Disabled by Archer 13 Feb 2024
 
+		/* Disabled by Archer 14 Feb 2024
 		RegisterHandler(OnEquip, "OnEquipArt");
 		RegisterHandler(OnUnequip, "OnUnequipArt");
+		*/
 
 		//RegisterHandler(NO_SAVE_NEWTABLES, "OnAfterCreateWindow");
 

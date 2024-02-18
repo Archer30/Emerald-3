@@ -527,25 +527,28 @@ void __stdcall Emerald(PEvent e)	//main function
 
 		if (first_time ) {
 			//new types of artifacts
+			/* Disabled by Archer 15 Feb 2024
 			emerald->WriteLoHook(0x44CC86, (void*)ArtTypesHook);
-
 
 			//splice for limited copying of artifact functions
 			emerald->WriteHiHook(0x4D9460, SPLICE_, EXTENDED_, THISCALL_, (void*)NewHasArtifact);
 			emerald->WriteHiHook(0x4D9420, SPLICE_, EXTENDED_, THISCALL_, (void*)NewHasArtifactInBP);
+			*/
 
 			//luck
 			emerald->WriteLoHook(0x4DCDA6, (void*)LuckTextHook);
 			emerald->WriteLoHook(0x4E3A46, (void*)LuckValueHook);
 
+			/* Disabled by Archer 14 Feb 2024
 			//morality
 			emerald->WriteLoHook(0x4DC606, (void*)MoraleTextHook);
 			emerald->WriteLoHook(0x4E3C9E, (void*)MoraleValueHook);
 
 			//resists
 			emerald->WriteHiHook(0x44A1A0, SPLICE_, EXTENDED_, FASTCALL_, (void*)ResistanceHook);
+			*/
 
-			//start of the battle
+			//start of the battle (right before Angelic Alliance casts)
 			emerald->WriteLoHook(0x464FBA, (void*)BattleStartHook);
 
 			emerald->WriteHiHook(0x4E6390, SPLICE_, EXTENDED_, THISCALL_, (void*)OnCreatureParamInit);
@@ -556,15 +559,17 @@ void __stdcall Emerald(PEvent e)	//main function
 		//MessageBoxA(0, "Emerald::Emerald BUMP 08", "Emerald::Emerald BUMP", 0);
 
 		if ( first_time ) {
-
+			
+			/* Disabled by Archer 13 Feb 2024
 			ExecErmCmd = (void(__stdcall *)(char*))GetProcAddress(LoadLibraryA("era.dll"), "ExecErmCmd");
 			RegisterHandler = (TRegisterHandler)GetProcAddress(LoadLibraryA("era.dll"), "RegisterHandler");
 
 			RegisterHandler(OnEquip, "OnEquipArt");
 			RegisterHandler(OnUnequip, "OnUnequipArt");
 			//RegisterHandler(OnBattleStart, "OnSetupBattlefield");//
-			RegisterHandler(OnBattleEnd, "OnAfterBattleUniversal");//
+			RegisterHandler(OnBattleEnd, "OnAfterBattleUniversal");
 			RegisterHandler(OnNewDay, "OnGlobalTimer"); 
+			*/
 
 			//emerald->WriteHiHook(0x5A7BF0, SPLICE_, EXTENDED_, FASTCALL_, (void*)MagicDamageHook);
 

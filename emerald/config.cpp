@@ -188,11 +188,13 @@ extern "C" __declspec(dllexport) void ConfigureArt(int artifact, char* config) {
 	ParseInt(buf, "MoraleBP=", &no_save.morale_bonuses_bp[target]);
 
 	//// Not Working
+	/* Disabled by Archer 17 Feb 2024
 	ParseInt(buf, "LuckEnemy=", &no_save.enemy_luck_bonuses[target]);
 	ParseInt(buf, "MoraleEnemy=", &no_save.enemy_morale_bonuses[target]);
 
 	ParseInt(buf, "Fly=", &no_save.allow_fly[target]);
 	ParseInt(buf, "Waterwalk=", &no_save.allow_water[target]);
+	*/
 
 	//// spellID here
 	ParseInt(buf, "Autospell=",  &no_save.autocast[target][0]);
@@ -205,6 +207,7 @@ extern "C" __declspec(dllexport) void ConfigureArt(int artifact, char* config) {
 	ParseInt(buf, "Autospell8=", &no_save.autocast[target][7]);
 	ParseInt(buf, "Autospell9=", &no_save.autocast[target][8]);
 
+	/* Disabled by Archer 17 Feb 2024
 	//// creatureID here
 	ParseInt(buf, "Autosummon=",  &no_save.autosummon[target][0]);
 	ParseInt(buf, "Autosummon2=", &no_save.autosummon[target][1]);
@@ -246,6 +249,7 @@ extern "C" __declspec(dllexport) void ConfigureArt(int artifact, char* config) {
 	ParseInt(buf, "UpgradeTo9=", &no_save.upgrade_to[target][8]);
 
 	ParseInt(buf, "RegenerateSpellpoints=", &no_save.regenerate_spellpoints[target]);
+	*/
 
 	//ParseStr(buf, "Name=\"", &(newtable[target].name));
 	ParseStr2(buf, "Name=\"", (EmeraldArtNewTable[target].name), 

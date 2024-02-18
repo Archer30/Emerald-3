@@ -2,7 +2,9 @@
 //extern GAMEDATA2 no_save;
 
 extern void BattleStartAction(int art, int customdata);
+/* Disabled by Archer 13 Feb 2024 
 extern void CastArtifactSummon(int artifact, int spell, int SpellPower, int SpellLevel);
+*/
 
 extern int CalculateAttackBonus(int art, int customdata);
 extern int CalculateDmgHighBonus(int art, int customdata);
@@ -15,11 +17,10 @@ extern int CalculateSpellsBonus(int art, int customdata);
 
 int __stdcall BattleStartHook(LoHook* h, HookContext* c)
 {
-
 	if (!ExecErmCmd) ConnectEra();
 	HERO *hero = (HERO*)c->edi;
 	
-	
+/* Disabled by Archer 14 Feb 2024
 	for (int i = 0; i != 19; i++)
 	{
 		if (hero->IArt[i][0] != -1)
@@ -27,7 +28,7 @@ int __stdcall BattleStartHook(LoHook* h, HookContext* c)
 			CastArtifactSummon(hero->IArt[i][0],2,hero->PSkill[2],0);
 		}
 	}
-
+*/
 	for (int i=0; i!=19; i++)
 	{
 		if(hero->IArt[i][0]!=-1)
@@ -115,9 +116,9 @@ void __stdcall OnUnequip (PEvent e)
 
 void __stdcall OnBattleStart(PEvent e)
 {
-
 	if (!ExecErmCmd) ConnectEra();
     int combat_manager = (*((int*)0x699420));
+	
 	//ExecErmCmd("IF:L^battle started^;");
 
 	/*
@@ -148,9 +149,8 @@ void __stdcall OnBattleStart(PEvent e)
 	}
 	*/
 
-	ExecErmCmd("BA:H0/?v1;");
+	//	 ExecErmCmd("BA:H0/?v1;");
 	//   ExecErmCmd("IF:L^%V1^;");
-
 
 	HERO *attacker = (HERO*)GetHeroRecord(ErmV[1]);
 	
@@ -179,13 +179,11 @@ void __stdcall OnBattleStart(PEvent e)
 			}
 		}
 	}
-
-
 }
+
 
 void __stdcall OnBattleEnd(PEvent e)
 {
-
 	if (!ExecErmCmd) ConnectEra();
 	
 	//   ExecErmCmd("BA:H0/?v1;");
@@ -265,7 +263,6 @@ void __stdcall OnNewDay(PEvent e)
 				}
 			}
 			
-			
 			for (int j = 0; j != 19; j++)
 			{
 				if(hero->IArt[j][0] != -1)
@@ -281,5 +278,4 @@ void __stdcall OnNewDay(PEvent e)
 			
 		}
 	}
-
 }

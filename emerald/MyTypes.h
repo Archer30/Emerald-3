@@ -5,7 +5,7 @@ typedef ART_RECORD _ArtSetUp_;
 
 #define OLD_ARTS_AMOUNT	171
 #define NON_BLANK_ARTS_AMOUNT	161
-#define NEW_ARTS_AMOUNT 1000
+#define NEW_ARTS_AMOUNT 300 // Changed by Archer 14 Feb 2024 from 1000
 #define STORED_ARTS_AMOUNT 1024
 #define char_table_size 512
 #define int_tuple_size 256
