@@ -328,6 +328,7 @@ void __stdcall ReallocProhibitionTables(PEvent e)
 
 	//---------------------------------------------------------------------------------
 	// 2020-04-04
+	// Archer: This is the key Emerald to be compatible with the latest ERA (not only this though)
 	replace_byte opcodes_other[] = {
 		{0x004C4BB4, 0x90}, {0x004C4BB5, 0xC6}, {0x004C4BB6, 0x81}, // seems to work
 		{0x004C07E6, 0x90}, {0x004C07E7, 0xc6}, {0x004C07E8, 0x80}, // seems to work

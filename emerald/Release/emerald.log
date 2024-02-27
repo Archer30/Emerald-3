@@ -1,28 +1,2 @@
-﻿  emerald.cpp
-D:\Documents\GitHub\Emerald-3\emerald\emerald.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\era.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\era.h(116,24): warning C4359: 'TTxtFile': Alignment specifier is less than actual alignment (4), and will be ignored.
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\era.h(123,24): warning C4359: 'THookHandlerArgs': Alignment specifier is less than actual alignment (4), and will be ignored.
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\era.h(129,24): warning C4359: 'TEvent': Alignment specifier is less than actual alignment (4), and will be ignored.
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(523,1): warning C4010: single-line comment contains line-continuation character
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\__include\patcher_x86_commented.hpp(524,1): warning C4010: single-line comment contains line-continuation character
-  (compiling source file 'emerald.cpp')
-  
-D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(96,8): warning C4101: 'tmp': unreferenced local variable
-D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(127,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(131,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Documents\GitHub\Emerald-3\emerald\emerald.cpp(134,7): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-     Creating library D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.lib and object D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.exp
+﻿     Creating library D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.lib and object D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.exp
   emerald.vcxproj -> D:\Games\HoMM 3 ERA Archer\Mods\Third Upgrade Mod Reborn\EraPlugins\emerald3_3.era
